@@ -24,3 +24,5 @@ app.listen(env.PORT, () => {
     console.log(`Server is running on port ${env.PORT}`);
     emailJob();
 });
+
+//app.ts
