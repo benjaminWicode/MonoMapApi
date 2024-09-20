@@ -17,12 +17,12 @@ app.use(AppRoutes.routes);
 })();
 
 app.get("/", (req, res) => {
-    res.send("Hello World");
+    res.send("Hola mundo");
 });
 
 app.listen(env.PORT, () => {
     console.log(`Server is running on port ${env.PORT}`);
-    emailJob();
+//     emailJob();
 });
 
 //app.ts
